@@ -1155,7 +1155,7 @@ body.embedded { padding-top: 10px; }
 </div>
 </div>
 <div class="footer">
-    <span>Source: Palissy Advisors, Ember</span> &nbsp;&bull;&nbsp; <span>Last updated: 2026-11-18 12:26</span>
+    <span>Source: Palissy Advisors, Ember</span> &nbsp;&bull;&nbsp; <span>Last updated: 2026-11-18 12:33</span>
 </div>
 <script>
 /* Palissy Global Power - Asian country pages + Combined (stand-alone page).
@@ -1564,6 +1564,7 @@ function updateSeasonalityChart() {
         {label: lookback+'y max', data: mx, borderColor: 'rgba(0,0,0,0)', backgroundColor: 'rgba(0,0,0,0)', pointRadius: 0, fill: false, order: 20},
         {label: lookback+'y range', data: mn, borderColor: 'rgba(0,0,0,0)', backgroundColor: 'rgba(147,149,162,0.28)', pointRadius: 0, fill: '-1', order: 19},
         {label: lookback+'y average', data: avg, borderColor: '#272962', backgroundColor: 'rgba(0,0,0,0)', borderWidth: 1.8, pointRadius: 0, fill: false, tension: 0.25, order: 4},
+        {label: cycleLabel(cal, cgy-2), data: vals(cgy-2), borderColor: '#539648', backgroundColor: 'rgba(0,0,0,0)', borderWidth: 1.8, pointRadius: 2, fill: false, tension: 0.25, order: 3},
         {label: cycleLabel(cal, cgy-1), data: vals(cgy-1), borderColor: '#0C5B19', backgroundColor: 'rgba(0,0,0,0)', borderWidth: 1.8, pointRadius: 2, fill: false, tension: 0.25, order: 3},
         {label: cycleLabel(cal, cgy, ' (current)'), data: vals(cgy), borderColor: '#C00000', backgroundColor: 'rgba(0,0,0,0)', borderWidth: 2.6, pointRadius: 3, fill: false, tension: 0.25, order: 1}
     ];
